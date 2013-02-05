@@ -1,0 +1,78 @@
+body{
+background-color:#111;
+}
+.picture-text{
+float:right;
+margin-top:0px;
+margin-bottom:0px;
+background-color:rgba(21,153,124,0.67);
+color:rgb(228,228,228);
+font-size:37px;
+}
+#first{
+margin-top:210px;
+}
+#second{
+margin-top:230px;
+margin-right:-90px;
+}
+#main{
+margin-left:auto;
+margin-right:auto;
+width:1000px;
+height:1000px;
+border:1px solid #FFF;
+border-radius:15px;
+background-color:#FFF;
+padding : 5px;
+}
+
+#header{
+margin-left:auto;
+text-align:in-line;
+margin-right:auto;
+border-top:1px solid #FFF;
+border-radius:15px;
+width:1000px;
+height:150px;
+background-color:#FFF;
+}
+#block-center{
+margin-left:auto;
+margin-right:auto;
+margin-top:15px;
+width:1000px;
+height:400px;
+}
+
+#main-picture{
+margin-left:auto;
+margin-right:auto;
+margin-top:19px;
+width:900px;
+height:350px;
+border-radius:15px;
+padding:10px;
+position:relative;
+background:url("../images/envystorefront.jpg") no-repeat;
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+			background-size: cover;
+-webkit-box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+        -moz-box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+        box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+}
+#logo{
+width:300px;
+height:125px;
+margin-left:10px;
+float:left;
+background:url("../images/envylogo.jpg") no-repeat;
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+			background-size: cover;
+}
+#navigation-list{
+float:right;
+
+}
