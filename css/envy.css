@@ -6,11 +6,40 @@ h3{
 font-size:32px;
 color:#222;
 }
+h1{
+margin:0px;
+margin-top:20px;
+margin-left:10px;
+}
+#about_text{
+padding:10px;
+width:575px;
+height:368px;
+}
+#service_text{
+position:absolute;
+top:65px;
+left:30px;
+}
+#under_picture{
+position:absolute;
+top:335px;
+}
 #main{
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
+	margin-top:-20px;
 	width:1012px;
+	overflow:none;
+}
+#footer{
+width:1012px;
+	height:20px;
+	border-top:2px solid black;
+	position:relative;
+	text-align:center;
+	font-size:11px;
 }
 #header{
 	width:1012px;
@@ -35,11 +64,23 @@ list-style-type:none;
 vertical-align:middle;
 
 }
-
+#services_image{
+position:absolute;
+top:95px;
+right:60px;
+box-shadow:10px 10px 15px #666;
+}
 #center_block{
 position:relative;
 width:851px;
-height:1000px;
+height:450px;
+margin-left:auto;
+margin-right:auto;
+}
+#center_block_services{
+position:relative;
+width:851px;
+height:350px;
 margin-left:auto;
 margin-right:auto;
 }
@@ -49,6 +90,24 @@ width:855px;
 position:absolute;
 top:355px;
 
+}
+#facebook{
+width:150px;
+height:35px;
+float:right;
+padding: 5px;
+box-shadow:0px 0px 5px #3b5998;
+position:absolute;
+top:25px;
+right:0px;
+}
+#about_image{
+margin-top:43px;
+float:right;
+width:250px;
+}
+#facebook:hover{
+cursor:pointer;
 }
 #left{
 float:left;
@@ -75,15 +134,22 @@ display:inline-block;
 padding:10px;
 text-align:center;
 }
+
 .column_picture{
 	width:225px;
-	height:100px;
+	height:150px;
 	display:block;
 }
 .center_picture{
 position:absolute;
 top:20px;
 }
+.marquee {position:relative;
+     overflow:hidden;
+     width:851px;
+     height:60px;
+     border:solid black 1px;
+     }
 .navigation_button{
 padding:20px;
 }
@@ -91,10 +157,82 @@ padding:20px;
 	color:#068866;
 	text-decoration:underline;
 }
-
+.current_page{
+	color:#068866;
+	text-decoration:none;
+	padding:20px;
+	
+}
 .navigation_bar{
 width:5px;
 display:inline-block !important; 
 height:30px;
 background-color:#068866;
 }
+
+#product_text{
+position:absolute;
+top:205px;
+left:180px;
+width:500px;
+text-align:center;
+}
+#product_store{
+height:250px;
+position:absolute;
+top:160px;
+}
+#product_store2{
+height:250px;
+position:absolute;
+top:160px;
+right:0;
+}
+#contact_header{
+position:absolute;
+right:135px;
+}
+#contact_info{
+text-align:center;
+border:2px solid black;
+position:absolute;
+right:20px;
+top:85px;
+height:250px;
+width:350px;
+padding:10px;
+}
+#gmap{
+position:absolute;
+top:50px;
+}
+#gmap_under{
+position:absolute;
+top:400px;
+}
+.slider {
+  position:absolute;left:0px;top:50px;width:851px;height:75px;border:solid black 1px;
+}
+
+.slider IMG{
+  position:relative;width:100px;height:75px;left:0px;float:left;margin-left:5px;
+}
+
+.sliderV {
+  position:absolute;left:730px;top:10px;width:100px;height:370px;border:solid red 0px;
+}
+
+
+.sliderV IMG{
+  position:relative;width:100px;height:75px;float:left;
+}
+
+.buttons {
+ position:absolute;left:100px;top:40px;width:600px;
+}
+
+.buttons INPUT {
+ width:100px;font-Size:12px;background-Color:#FFCC66;
+}
+
+   
